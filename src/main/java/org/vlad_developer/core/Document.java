@@ -1,8 +1,11 @@
 package org.vlad_developer.core;
 
+import jakarta.persistence.Entity;
+
 import java.io.File;
 import java.sql.Timestamp;
 
+@Entity
 public class Document {
 
     private String name;
